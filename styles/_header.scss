@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+@mixin corMist()
+    {background: linear-gradient(45deg, #ff4800, #692100, #0252ff);
+    -webkit-background-clip: text;
+    color: transparent;}
+@mixin corLi()
+    {background: linear-gradient(45deg, #ff00c8, #0252ff);
+    -webkit-background-clip: text;
+    color: transparent;}
+header {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+h1 {
+    font-family: Monoton, sans-serif;
+}
+.navbar-brand {
+    font-size: 40px;
+    @include corMist;
+}
+li {
+    font-weight: bold;
+
+    .nav-link {
+        @include corLi;
+    }
+}
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}

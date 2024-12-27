@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+}
+
+h1 {
+  font-family: Monoton, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  background: linear-gradient(45deg, #ff4800, #692100, #0252ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+li {
+  font-weight: bold;
+}
+li .nav-link {
+  background: linear-gradient(45deg, #ff00c8, #0252ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#Cores-Vintages {
+  background-color: #D1A1A6;
+}
+#Cores-Vintages h1 {
+  margin-bottom: 20px;
+}
+#Cores-Vintages #header1 {
+  background-color: #D87F3F;
+}
+#Cores-Vintages #header2 {
+  background-color: #5F8A8B;
+}
+#Cores-Vintages #header3 {
+  background-color: #D9A134;
+}
+
+#Cores-Pasteis {
+  background-color: #A4C8E1;
+}
+#Cores-Pasteis h1 {
+  margin-bottom: 20px;
+}
+#Cores-Pasteis #header4 {
+  background-color: #F2B9B1;
+}
+#Cores-Pasteis #header5 {
+  background-color: #B9D9A3;
+}
+#Cores-Pasteis #header6 {
+  background-color: #FFD6A5;
+}
+
+#Cores-Dark {
+  background-color: #010033;
+}
+#Cores-Dark h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+#Cores-Dark #header7 {
+  background-color: #002206;
+}
+#Cores-Dark #header8 {
+  background-color: #300035;
+}
+#Cores-Dark #header9 {
+  background-color: #4b0000;
+}
+
+section {
+  padding: 56px 0;
+  padding-bottom: 80px;
+}
+section h1 {
+  font-size: 30px;
+}
+
+.card {
+  display: grid;
+}
+.card .card-header {
+  height: 250px;
+}/*# sourceMappingURL=index.css.map */
